@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: rgba(230, 230, 255, 0.8); /* Pale blue background with 80% opacity */
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow */
+}
+
+header .navbar-brand {
+    color: #333; /* Adjusted text color for visibility */
+}
+
+header img {
+    max-height: 50px;
+    margin-right: 10px;
+}
+
+.container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+
+.containertab {
+    width: 90%; /* Adjust width as needed */
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: left;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.error-message {
+    color: red;
+}
+
+h2 {
+    font-family: 'Arial Black', Gadget, sans-serif;
+    color: #007bff;
+}
+
+h1 {
+    font-family: Arial, sans-serif; /* Use a more standard font */
+    font-weight: bold; /* Adjust the weight to make it bold */
+    color: #007bff; /* Keep the color as desired */
+    font-size: 2rem; /* Adjust the font size to maintain prominence without overwhelming */
+    margin-bottom: 20px; /* Add some spacing below the heading */
+}
